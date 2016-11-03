@@ -1,6 +1,6 @@
 #!/usr/bin/expect -f
 spawn heroku login
-expect "Email:"
+expect "isaelinc@gmail.com"
 send "''\r"
 expect "isaelin9"
 send "$env(HEROKU_API)\r"
